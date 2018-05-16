@@ -1,0 +1,23 @@
+netmask.sh - A BASH script to determine the range of IP address of a nework.
+
+Read the network address in the form of:
+192.268.1.0/24
+
+Usage:
+
+1. Run netmask
+and then enter the <IP/netmask>
+
+e.g.:
+chris@acer:~/Documents/notes/scripts/netmask$ ./netmask.sh 
+Enter the IP address: 192.168.1.100/24
+Lowest IP: 192.168.1.0
+Highest IP: 192.168.1.255
+
+OR
+
+2. netmask.sh <IP/netmask>
+e.g.:
+./netmask.sh 192.168.1.100/24 
+Lowest IP: 192.168.1.0
+Highest IP: 192.168.1.255
