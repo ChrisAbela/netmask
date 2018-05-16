@@ -1,5 +1,5 @@
 #!/bin/bash
-# sanity_sqf.sh - a shell script to check the sanity of your sbopkg queue files
+# netmask.sh - A BASH script to determine the range of IP address of a nework.
 
 # Copyright 2018 Chris Abela <kristofru@gmail.com>, Malta
 # All rights reserved.
@@ -20,8 +20,6 @@
 #  WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
 #  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-# netmask.sh - A BASH script to determine the range of IP address of a nework.
 
 # Read the network address in the form of:
 # 192.268.1.0/24
